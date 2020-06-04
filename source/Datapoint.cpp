@@ -6,9 +6,7 @@ Datapoint::Datapoint(std::string fileName) :
     distance(-1) {}
 
 bool Datapoint::operator==(const Datapoint &other) const {
-    return this->GetFile() == other.GetFile(); //&&
-           //this->GetClusterId() == other.GetClusterId() &&
-           //this->GetDistance() == other.GetDistance();
+    return this->GetFile() == other.GetFile();
 }
 
 void Datapoint::SetFile(std::string fileName) {
