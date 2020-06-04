@@ -14,4 +14,4 @@ The binary will be inside the build folder and the file list document is in the 
 ```
 
 ### Output
-The output files generated are stored in the `outputs` folder
+The output files generated are stored in the `outputs` folder and there are two output examples there already
